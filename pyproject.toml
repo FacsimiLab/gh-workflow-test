@@ -38,13 +38,6 @@ match = "(main|master)"
 prerelease_token = "rc"
 prerelease = true
 
-[tool.semantic_release.branches.develop]
-match = "develop"
-prerelease_token = "beta"
-prerelease = true
-
-
-
 [tool.semantic_release.changelog]
 changelog_file = "CHANGELOG.md"
 
@@ -61,8 +54,6 @@ newline_sequence = "\n"
 keep_trailing_newline = false
 extensions = []
 autoescape = true
-
-
 
 [tool.semantic_release.remote]
 name = "origin"
