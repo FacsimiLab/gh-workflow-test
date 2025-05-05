@@ -1,0 +1,33 @@
+---
+src:
+  - code/**
+  - templates/**
+  - pyproject.toml
+
+build:
+  - .gitignore
+  - .gitmodules
+  - .gitattributes
+  - .pre-commit-config.yaml
+  - _site/**
+  - _quarto*.yml
+
+docs:
+  - docs/**
+  - documentation/**
+  - deploy/**
+  - notebook/**
+
+  - README.md
+  - readme.md
+  - CHANGELOG.md
+  - changelog.md
+
+  - "*.md"
+  - "*.qmd"
+
+tests:
+  - tests/**
+
+ci:
+  - .github/**
